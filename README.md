@@ -16,6 +16,3 @@ Bu proje, Java dili kullanılarak Android Studio ortamında geliştirilmiş basi
 ## Kurulum
 - Proje Android Studio ile açılır
 - Uygulama emülatör veya gerçek cihazda çalıştırılabilir
-
-## Ekran Görüntüleri
-(Proje raporunda paylaşılmıştır)
