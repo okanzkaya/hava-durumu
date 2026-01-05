@@ -1,6 +1,6 @@
 # Hava Durumu Mobil Uygulaması
 
-Bu proje, Java dili kullanılarak Android Studio ortamında geliştirilmiş basit bir hava durumu uygulamasıdır.
+Bu proje, Java dili kullanılarak Android Studio ortamında geliştirilmiş bir hava durumu uygulamasıdır.
 
 ## Özellikler
 - Şehir bazlı hava durumu sorgulama
