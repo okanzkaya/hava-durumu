@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Şehir gir (örn: Istanbul)"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btnGetWeather"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hava Durumunu Getir"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/tvCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:text="Şehir: -" />
+
+    <TextView
+        android:id="@+id/tvTemp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sıcaklık: -" />
+
+    <TextView
+        android:id="@+id/tvDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Durum: -" />
+
+    <TextView
+        android:id="@+id/tvHumidity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nem: -" />
+
+    <TextView
+        android:id="@+id/tvWind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rüzgâr: -" />
+
+    <TextView
+        android:id="@+id/tvError"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#B00020"
+        android:layout_marginTop="8dp"
+        android:text=""
+        android:visibility="gone"/>
+</LinearLayout>
